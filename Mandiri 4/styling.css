@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* css */
+body{
+    background-color: #dbdbdb;
+}
+
+.container{
+    width: 900px;
+    background-color: whitesmoke;
+    margin: auto;
+    position: relative;
+}
+
+.navbar h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    background-color: aquamarine;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(69, 168, 168);
+}
+
+.navbar li {
+    margin: 0 10px 0 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.tempat{
+    width: 300px;
+}
+
+img{
+    width: 250px;
+    height: 180px;
+}
+
+.gambar{
+    margin: 10px 20px 20px 20px;
+    padding: 5px;
+    background-color: white;
+}
+.content{
+    position: relative;
+    z-index: 99999;
+}
+
+.keterangan{
+    position: absolute;
+    width: 300px;
+    top: 0; left: 300px;
+    z-index: 2;
+}
+
+.keterangan h2{
+    padding: 10px;
+    font-size: 28px;
+}
+
+.keterangan h3{
+    padding: 0px 10px 20px 10px;
+    font-size: 22px;
+    color: red;
+}
+
+.keterangan p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.keterangan2{
+    position: absolute;
+    width: 300px;
+    top: 229px; left: 300px;
+    z-index: 1;
+}
+
+.keterangan2 h2{
+    padding: 10px;
+    font-size: 28px;
+}
+
+.keterangan2 h3{
+    padding: 0px 10px 20px 10px;
+    font-size: 22px;
+    color: red;
+}
+
+.keterangan2 p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.masakan{
+    position: absolute;
+    padding: 10px 30px;
+    top : 0;
+    left: 600px;
+}
+.masakan h2{
+    font-size: 28px;
+}
+
+.masakan ul{
+    padding: 20px;
+}
+
+.masakan ul li {
+    padding: 10px 0px;
+    margin-top: 5px;
+    border: 1px solid rgb(0,0,0,0.1);
+}
+
+.masakan ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.kontak{
+    position: absolute;
+    padding: 10px 30px;
+    top : 229px;
+    left: 600px;
+}
+
+.kontak h2{
+    font-size: 28px;
+    padding: 10px;
+}
+
+.kontak ul li{
+    padding: 10px 20px 0 20px;
+}

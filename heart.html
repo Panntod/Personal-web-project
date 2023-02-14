@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hati</title>
+    <Style>
+        body{
+            background-color: black;
+        }
+
+        .heart{
+            margin: 150px auto;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            background-color: red;
+            transform: rotate(-45deg);
+            box-shadow: -20px 20px 200px #f20044;
+            animation: heart .6s linear infinite;
+        }
+
+        @keyframes heart{
+            0%{
+                transform: rotate(-45deg) scale(1.07);
+            }
+            80%{
+                transform: rotate(-45deg) scale(1.0);
+            }
+            100%{
+                transform: rotate(-45deg) scale(.07);
+            }
+        }
+
+        .heart:before{
+            content: '';
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            background-color: #f20044;
+            border-radius: 50%;
+            top: -50%;;
+            box-shadow: -20px -20px 200px #f20044;
+        }
+        .heart:after{
+            content: '';
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            background-color: #f20044;
+            border-radius: 50%;
+            right: -50%;;
+            box-shadow: 20px 20px 200px #f20044;
+        }
+    </Style>
+</head>
+<body>
+    <div class="heart"></div>
+</body>
+</html>
