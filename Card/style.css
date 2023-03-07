@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card:hover .items-header{
+    opacity: 0;
+}
+
+.card:hover > .card-secondary{
+    opacity: 1;
+    background: linear-gradient(90deg, #FF372F -5.86%, #FA5E06 100%);
+}
